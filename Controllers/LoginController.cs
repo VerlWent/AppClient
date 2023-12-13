@@ -23,7 +23,7 @@ namespace ApplicationClientMVC.Controllers
 		private readonly ILogger<LoginController> _logger;
 
 		//public string ApiUrl = "http://192.168.38.140/Api";
-		public string ApiUrl = "http://localhost/Api";
+		public string ApiUrl = "http://localhost:441/Api";
 
 
 		public LoginController(ILogger<LoginController> logger)
