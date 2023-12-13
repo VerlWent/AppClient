@@ -14,7 +14,7 @@ namespace ApplicationClientMVC.Controllers
         static HttpClient client = new HttpClient();
 
         //public string ApiUrl = "http://192.168.38.140/Api";
-        public string ApiUrl = "http://localhost/Api";
+        public string ApiUrl = "http://localhost:441/Api";
 
         private readonly ILogger<TaskController> _logger;
 
